@@ -1,0 +1,28 @@
+program oszto
+  integer a;
+  integer i;
+  integer oszto;
+  boolean vanoszto;
+begin
+  read(a);
+  vanoszto := false;
+  i := 2;
+  while not vanoszto and i < a 
+  begin
+    if a mod i = 0 
+    begin
+      vanoszto := true;
+      oszto := i;
+    end
+    i := i+1;
+  end
+  if vanoszto
+  begin
+    write(vanoszto);
+    write(oszto);
+  end
+  else
+  begin
+    write(vanoszto);
+  end
+end

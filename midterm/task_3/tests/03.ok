@@ -1,0 +1,15 @@
+program gotos
+  integer a0;
+begin
+  read(a0);
+  label11:
+  _LABEL2_:
+  if a0 mod 2 = 0 then
+    mylab242:
+    a0 := a0 - 1;
+    a0:
+    goto label11 if a0 > 5;
+  else
+    a0 := a0 + 1;
+  endif
+end

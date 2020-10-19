@@ -1,0 +1,9 @@
+program inc
+    integer a;
+    integer i;
+begin
+    read(a);
+    for i := 1 to 10 do
+        i:=1;
+    done
+end

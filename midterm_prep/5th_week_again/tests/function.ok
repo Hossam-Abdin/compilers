@@ -1,0 +1,24 @@
+program oszto
+  integer a;
+  function boolean vanoszto(integer aa)
+    integer i;
+    boolean vanoszto;
+  begin
+    vanoszto := false;
+    i := 2;
+    while not vanoszto and i < aa do
+      if aa mod i = 0 then
+        vanoszto := true;
+      endif
+      i := i+1;
+    done
+    return vanoszto;
+  end;
+  function printer(boolean p)
+  begin
+    write(p);
+  end;
+begin
+  read(a);
+  printer(vanoszto(a));
+end

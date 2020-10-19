@@ -1,0 +1,7 @@
+program gotos
+  integer a;
+begin
+  goto label11 if a > 5;
+  read(a);
+  label11:
+end

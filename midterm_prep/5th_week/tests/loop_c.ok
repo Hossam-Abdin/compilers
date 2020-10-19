@@ -1,0 +1,9 @@
+program inc
+    integer a;
+    integer i;
+begin
+    read(a);
+    for (i := 0; i < 10; i:=i+1){
+        i:=1;
+    }
+end

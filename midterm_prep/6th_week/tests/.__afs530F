@@ -1,0 +1,8 @@
+program time_tester
+  time a;
+begin
+  read(a);
+  write(a);
+  a := 23:59;
+  write(hour(a)+minute(a));
+end
