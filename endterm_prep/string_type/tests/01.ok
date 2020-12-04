@@ -1,0 +1,28 @@
+program oszto
+  integer a;
+  integer i;
+  integer oszto;
+  boolean vanoszto;
+  string s;
+begin
+  read(a);
+  vanoszto := false;
+  i := 2;
+  while not vanoszto and i < a do
+    if a mod i = 0 then
+      vanoszto := true;
+      oszto := i;
+    endif
+    i := i+1;
+  done
+  if vanoszto then
+    write(vanoszto);
+    write(oszto);
+  else
+    write(vanoszto);
+  endif
+  s := "Hossam";
+  write(length(s) + 2);
+  s := s * 3;
+  s := s + "3";
+end
