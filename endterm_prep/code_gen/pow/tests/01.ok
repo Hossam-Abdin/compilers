@@ -1,0 +1,8 @@
+program oszto
+  integer a;
+  integer b;
+begin
+  read(a);
+  read(b);
+  write(a**b);
+end

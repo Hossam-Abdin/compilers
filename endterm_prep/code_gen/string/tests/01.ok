@@ -1,0 +1,8 @@
+program oszto
+  string b;
+begin
+  b := "apple";
+  write(length(b));
+  write(length(b+"pie"));
+  write(length(b*3));
+end
