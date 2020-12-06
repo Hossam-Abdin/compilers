@@ -1,0 +1,15 @@
+program oszto
+  time t;
+begin
+  t := 12:13;
+  write(t);
+  write(minute(t));
+  write(hour(t));
+
+  t := make_time(10, 14);
+  write(minute(t));
+  write(hour(t));
+
+  write(minute(t + 4));
+  write(minute(t - 4));
+end
