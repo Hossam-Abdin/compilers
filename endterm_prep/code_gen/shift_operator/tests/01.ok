@@ -1,0 +1,7 @@
+program oszto
+  integer I;
+begin
+  I := 20;
+  write(I >> 1);
+  write(I >> 2);
+end
