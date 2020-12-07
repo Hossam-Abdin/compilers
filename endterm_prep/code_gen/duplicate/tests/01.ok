@@ -1,0 +1,6 @@
+program oszto
+  integer I;
+begin
+  I := 1;
+  duplicate write(I);
+end
