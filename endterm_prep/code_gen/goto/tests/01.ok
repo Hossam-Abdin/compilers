@@ -1,0 +1,11 @@
+program oszto
+  integer I;
+begin
+  I := 1;
+  start:
+  write(I);
+  if I = 1 then
+    I := I + 1;
+    goto start;
+  endif
+end
