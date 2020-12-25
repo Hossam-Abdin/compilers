@@ -1,0 +1,8 @@
+program ex
+  integer array arr[100];
+  integer a;
+begin
+  a[13] := 37;
+  arr[81] := 102;
+  write(arr[arr[80+1] - arr[15-2]]);
+end

@@ -1,0 +1,9 @@
+program ures
+    integer i;
+begin
+    i := 12;
+    duplicate write(i);
+    duplicate read(i);
+    duplicate i:=i+1;
+    write(i);
+end

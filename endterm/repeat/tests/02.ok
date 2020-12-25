@@ -1,0 +1,12 @@
+program ures
+    integer x;
+begin
+    x := 0;
+    repeat 
+        x := x + 1;
+        repeat
+            x := x + 1;
+        until x > 5 done;
+        write(x);
+    until x = 10 done;
+end
